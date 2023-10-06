@@ -1,0 +1,21 @@
+name: soft_lts
+channels:
+  - defaults
+dependencies:
+  - python=3.8
+  - pandas=1.3.2
+  - ipykernel=5.3.4
+  - matplotlib=3.3.4
+  - notebook=6.4.3
+  - scikit-learn=0.24.2
+  - tqdm=4.61.2
+  - seaborn=0.12.2
+  - pip
+  - pip:
+    - numpy==1.19.2
+    - tensorflow==2.6
+    - xlrd==2.0.1
+    - openpyxl==3.0.9
+    - rpy2
+    - git+https://github.com/google-research/fast-soft-sort.git
+prefix: /opt/anaconda3/envs/soft_lts
